@@ -5,7 +5,8 @@ import {animateScroll as scroll} from 'react-scroll';
 import { 
     Nav, 
     NavbarContainer, 
-    NavLogo, 
+    NavLogo,
+    Navspan, 
     MobileIcon,
     NavMenu,
     NavItems, 
@@ -38,29 +39,30 @@ const Navbar = ({toggle}) => {
             <IconContext.Provider value={{color: '#fff'}}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to="/" onClick={toggleHome}>Cristhian</NavLogo>
+                        <NavLogo to="/" onClick={toggleHome}> <Navspan>F</Navspan>OA</NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />   
                         </MobileIcon>
                         <NavMenu>
                             <NavItems>
-                                <NavLinks to='about' smooth={true} duration={500} spy={true} exact='true' offset={-80}> About </NavLinks>
+                                <NavLinks to='home' smooth='true' duration={500} spy='true' exact='true' offset={-80}>INICIO</NavLinks>
                             </NavItems>
                             <NavItems>
-                                <NavLinks to='discover' smooth={true} duration={500} spy={true} exact='true' offset={-80}> Discover </NavLinks>
+                                <NavLinks to='nosotros' smooth='true' duration={500} spy='true' exact='true' offset={-80}>NOSOTROS</NavLinks>
                             </NavItems>
                             <NavItems>
-                                <NavLinks to='services' smooth={true} duration={500} spy={true} exact='true' offset={-80}> Services </NavLinks>
+                                <NavLinks to='services' smooth='true' duration={500} spy='true' exact='true' offset={-80}>SERVICIOS</NavLinks>
                             </NavItems>
                             <NavItems>
-                                <NavLinks to='projects' smooth={true} duration={500} spy={true} exact='true' offset={-80}> Projects </NavLinks>
+                                <NavLinks to='projects' smooth='true' duration={500} spy='true' exact='true' offset={-80}>PROYECTOS</NavLinks>
                             </NavItems>
                             <NavItems>
-                                <NavLinks to='signup' smooth={true} duration={500} spy={true} exact='true' offset={-80}> Sign Up </NavLinks>
+                                <NavLinks to='contact' smooth='true' duration={500} spy='true' exact='true' offset={-80}>CONTACTANOS</NavLinks>
                             </NavItems>
+                           
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to='/signin' smooth={true} duration={500} spy={true} exact='true' offset={-80}> Sign In</NavBtnLink>
+                            <NavBtnLink to='/signin' smooth='true' duration={500} spy='true' exact='true' offset={-80}>Sign In</NavBtnLink>
                         </NavBtn>
                     </NavbarContainer> 
                 </Nav>

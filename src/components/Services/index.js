@@ -1,29 +1,29 @@
 import React from 'react';
-import Icon1 from '../../images/svg-1.svg';
-import Icon2 from '../../images/svg-1.svg';
-import Icon3 from '../../images/svg-7.svg';
+import Icon1 from '../../images/svg-5.svg';
+import Icon2 from '../../images/svg-5.svg';
+import Icon3 from '../../images/svg-5.svg';
 import { ServicesContainer, ServicesH1, ServicesWrapper,
         ServicesCard, ServicesIcon, ServicesH2, ServicesP } from './ServicesElements';
 
 const Services = () => {
     return (
         <ServicesContainer id='services'>
-            <ServicesH1> Our Services </ServicesH1>
+            <ServicesH1>NUESTRO SERVICIOS</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
-                    <ServicesH2> Reduce expence</ServicesH2>
-                    <ServicesP> We help reduce your fess and increase your averall revenue.</ServicesP>
+                    <ServicesH2>INTERNET</ServicesH2>
+                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
-                    <ServicesH2> Virtual Offices</ServicesH2>
-                    <ServicesP> Tou can access our platform online anywhere in the world .</ServicesP>
+                    <ServicesH2>CONEXIÓN SEGURA</ServicesH2>
+                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
-                    <ServicesH2> Premiun Benefits</ServicesH2>
-                    <ServicesP> Unlock our special membership card that reurns 5% cash back.</ServicesP>
+                    <ServicesH2>INTERCONEXION</ServicesH2>
+                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

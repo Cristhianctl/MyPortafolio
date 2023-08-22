@@ -15,22 +15,22 @@ const Projects = () => {
             <ProjectsWrapper>
                 <ProjectsCard>
                     <ProjectsIcon src={Icons1} />
-                    <ProjectsH2>Paginas Web</ProjectsH2>
-                    <ProjectsP> Creacion de paginas de todo tipo para cualquier rubro y negocio.</ProjectsP>
+                    <ProjectsH2>Fibra Amazonica</ProjectsH2>
+                    <ProjectsP>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard>
                     <ProjectsIcon src={Icons2} />
-                    <ProjectsH2>Desarrollo Movil</ProjectsH2>
-                    <ProjectsP> Creacion aplicaciones moviles de todo tipo para cualquier rubro y negocio.</ProjectsP>
+                    <ProjectsH2>Fibra Amazonica</ProjectsH2>
+                    <ProjectsP>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard>
                     <ProjectsIcon src={Icons3} />
-                    <ProjectsH2>Software Libre </ProjectsH2>
-                    <ProjectsP> Creacion de software </ProjectsP>
+                    <ProjectsH2>Fibra Amazonica</ProjectsH2>
+                    <ProjectsP>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</ProjectsP>
                 </ProjectsCard>
             </ProjectsWrapper>
         </ProjectsContainer>
     )
 }
 
-export default Projects
+export default Projects;

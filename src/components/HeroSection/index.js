@@ -22,23 +22,22 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Soy Cristhian T. Leon, Ingeniero de Sistemas e Informática:</HeroH1>
+                <HeroH1>Fibra Optica Amazonicas</HeroH1>
                 <HeroP>
-                    Web Developer: FrontEnd y BackEnd 
-                    Lenguajes: JavaScript, NodeJs, PHP. 
+                    Conectando a toda amazonia con el Mundo...
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to='signup' 
+                    <Button to='consult' 
                     onMouseEnter={onHover} 
                     onMouseLeave={onHover}
                     primary='true'
-                    dark='true'  smooth={true} duration={500} spy={true} exact='true' offset={-80} >
-                        Contact me {hover ? <ArrowFroward/> : <ArrowRight/>}
+                    dark='true'  smooth='true'duration={500} spy='true' exact='true' offset={-80} >
+                        Leer Más {hover ? <ArrowFroward/> : <ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
-    )
-}
+    );
+};
 
-export default HeroSection
+export default HeroSection;

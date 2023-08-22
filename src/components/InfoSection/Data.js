@@ -1,20 +1,20 @@
 export const homeObjOne ={
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    id: 'consult',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Consultas',
-    headline: 'Consulte Y Agende una Reunion',
+    headline: 'Consulte nuestras ofertas',
     description: 'Get access toout excluesiveapp that allows you to send unlimited transactions without getting charged any fees.',
-    buttonLabel: 'Get started',
-    imgStart: false,
-    img: require("../../images/svg-7.svg").default,
+    buttonLabel: 'Contactar',
+    imgStart: true,
+    img: require("../../images/foa12.jpg"),
     alt: 'Car',   
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 };
-
+/*
 export const homeObjTwo ={
     id: 'discover',
     lightBg: true,
@@ -47,4 +47,4 @@ export const homeObjThree ={
     dark: true,    
     primary: true,
     darkText: false
-};
+};*/

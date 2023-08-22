@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
-import {Link as LinkS} from 'react-scroll';
+//import {Link as LinkS} from 'react-scroll';
 
 export const Nav =styled.nav`
     background: ${({scrollNav})=> (scrollNav ? '#000': 'transparent')};
@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 
 // Logo
 export const NavLogo = styled(LinkR)`
-    color: #fff;
+    color: #FFA500;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -39,6 +39,11 @@ export const NavLogo = styled(LinkR)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+`;
+
+//sapan 
+export const Navspan = styled.span`
+    color: #8B008B;
 `;
 
 // Estilo del Icono
@@ -73,7 +78,7 @@ export const NavItems = styled.li`
     height:80px;
 `;
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkR)`
     color: #fff;
     display: flex;
     align-items: center;

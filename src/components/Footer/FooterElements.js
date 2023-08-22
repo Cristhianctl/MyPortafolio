@@ -84,7 +84,7 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled(Link)`
-    color: #fff;
+    color: #FFA500;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -93,6 +93,9 @@ export const SocialLogo = styled(Link)`
     align-items: center;
     margin-bottom: 16px;
     font-weight: bold;
+`;
+export const FootSpan = styled.span`
+    color: #8B008B;
 `;
 
 export const WebSiteTights = styled.small`
